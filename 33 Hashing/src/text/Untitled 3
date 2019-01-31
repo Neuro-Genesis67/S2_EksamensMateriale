@@ -1,0 +1,4 @@
+Linear probing - Springer feltet over hvis der allerede er en, og sætter så i næste felt
+Quadratic probing - Bruger h(x) 'mod/%' listens længde
+Double hashing - To hash metoder i en:
+h(k) = k mod 9h’(k) = 8 –(k mod 8) 

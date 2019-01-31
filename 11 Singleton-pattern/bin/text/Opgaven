@@ -1,0 +1,7 @@
+A singleton pattern is used to make sure that there's only one instance of a class.
+
+-Den har en privat constructor, så det ikke er muligt for andre at bruge constructoren
+
+-Det er muligt at gøre sin singleton thread safe ved at gøre getInstance metoden synchronized.
+
+-

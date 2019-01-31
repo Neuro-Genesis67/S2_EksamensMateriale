@@ -1,0 +1,26 @@
+Gui
+Application
+Storage
+
+
+
+Model, Service
+
+
+Gui eksempel:
+_________________________________________________
+|                                                |
+|             ______ Window1 ----> Window1.2     |
+|             |                                  |
+|   MainApp --|                                  |
+|             |_____ window2 ----> window2.1     |
+|                                                |
+|________________________________________________|
+
+
+I en lagdelt arkitektur gælder følgende regel:
+En klasse iet lag MÅIKKE anvende noget fra lagene OVENOVER dets eget lag.
+
+Når du programmere en klasse i et lag:
+-Skal du forestille dig, at du ikke har kendskab til de overliggende lag.
+-Kan du altid anvende klasser fra det samme lag, og laget under.

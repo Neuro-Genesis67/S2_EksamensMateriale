@@ -1,0 +1,10 @@
+-Et problem skal være rekursivt nedbrydeligt for at man kan bruge del-løs og kombiner
+
+-Hvis et problem kan deles op i to problemer af samme type kan man bruge del-løs og onaner
+
+Et problem er rekursivt nedbrydeligt, hvis det
+enten
+er simpelt og kan løses direkte
+eller
+ikke er simpelt, men kan nedbrydes i (typisk to) delproblemer, der hver især er simplere end det
+oprindelige, og hvis løsningen kan kombineres til en løsning på det oprindelige problem.

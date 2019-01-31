@@ -1,0 +1,11 @@
+(Se eksemplet) Nu har vi et postkontor. 
+Hvis man vil tilføje en klasse "Gmail" skal man blot 
+implementere ObserverMethods (Others call this "Subject"), 
+og bum, så er Gmail klassen kompatibel med alle klasser, 
+der implementerer Observer interfacet.
+
+Ved brug af observer pattern, løser man et problem;
+En klient til et postkontor skal ikke tjekke mail hele tiden, 
+for at se om der er kommet post, han bliver istedet underrettet,
+så snart postkontoret modtager post.
+

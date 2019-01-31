@@ -1,0 +1,26 @@
+Selection sort
+The general strategy of the selection sort algorithm is as follows:
+Scan  the  entire  list  to  find  the  smallest  value.  
+put it first in list
+Scan the rest of the list to find the smallest value, 
+and then exchange it with the value in the second position of the list. and so on
+
+
+Insertion sort
+The insertion  sort algorithm  sorts  a  list  of  values  
+by  repetitively inserting a particular value into a subset of the list 
+that has already been  sorted.  
+One  at  a  time,  each  unsorted  element  is  inserted  at
+the appropriate position in that sorted subset until the entire list is in order.
+
+
+Quick sort
+First,choose one element of the list to act as a partition element. 
+Next, partition the list so that all elements less than the partition element 
+are to the left of that element and all elements greater than the partition element 
+are to the right. Finally, apply this quick sort strategy (recursively) to both partitions.
+
+
+Bubble sort
+Sorts values by repeatedly comparing neighboring elements in the list 
+and swapping their position if they are not in order relative to each other.

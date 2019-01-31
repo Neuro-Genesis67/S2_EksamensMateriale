@@ -1,0 +1,16 @@
+Linear search - Starter fra starten, hvis ikke fundet - fortsæt til næste i listen.
+Binary search - Starter i midten. Hvis mindre - Søg i midten af venstre side.
+Abstract search - Ikke helt sikker - Har en søgemængde (det hele), en kandidatmængde, et målemenet og en 
+
+
+
+Her er skabelonen:
+
+
+
+
+<Initialisér km>                       : i = 0
+<km  >                               : i < arr.length
+<Udvælg k fra km>                      : k = arr[i]
+<k er lig m>                           : k == m
+<Split km i forhold til k og m>        : i++

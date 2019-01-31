@@ -1,0 +1,39 @@
+	@Test(expected = RuntimeException.class)
+	public void testBeregnPræmieSkadefri02() {
+
+		double result = object.beregnPræmie(25, false, 1);
+		assertEquals(object.getGrundPræmie(), result, 0.001);
+		
+		
+
+		assertEquals(aktuel resultat, forventet resultat, tilladt afvigelse);
+		
+expected = den error man forventer at få hvis metoden ikke virker
+		
+
+	@Before
+	public void SetUp() {
+		object.setGrundpræmie(100);
+		assertNotNull(object);
+	}
+	
+	@After
+	
+	
+	
+	 public class Example {
+    File output;
+    @Before public void createOutputFile() {
+          output= new File(...);
+    }
+    
+    @Test public void something() {
+          ...
+    }
+    
+    @After public void deleteOutputFile() {
+          output.delete();
+    }
+ }
+ 
+ JUnit er framework

@@ -1,0 +1,16 @@
+Anvender man generics, er compileren i stand til at finde fejl i compile time.
+
+
+-Behøver ikke casting med generics.
+
+
+
+public Bil returnBil (Object bil){
+return 5; (ingen fejl fundet)
+}
+
+public T returnBil (T bil){
+return 5; <---- Her vil en fejl blive fanger da en int ikke er en generic T. 
+}
+
+public class genericClass<T>

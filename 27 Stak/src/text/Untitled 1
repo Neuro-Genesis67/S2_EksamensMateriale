@@ -1,0 +1,36 @@
+Stak
+
+
+
+
+
+
+
+5
+4
+3
+2
+1
+
+pop
+
+
+4
+3
+2
+1
+
+
+push 
+
+
+5
+4
+3
+2
+1
+
+peek (se den øverste)
+
+
+LIFO last to get in, is first to get out
